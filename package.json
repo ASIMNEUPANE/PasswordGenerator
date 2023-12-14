@@ -2,7 +2,7 @@
   "name": "themeswitcher",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://asimneupane.github.io/PasswordGenerator",
+  "homepage": "http://asimneupane.github.io/passwordgenerator",
 
   "type": "module",
   "scripts": {

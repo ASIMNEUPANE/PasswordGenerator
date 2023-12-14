@@ -2,14 +2,19 @@
   "name": "themeswitcher",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://asimneupane.github.io/PasswordGenerator",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dest",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
